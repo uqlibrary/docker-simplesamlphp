@@ -3,7 +3,7 @@ MAINTAINER Ian Blenke <ian@blenke.com>
 
 env VERSION 1.13.2
 
-RUN curl https://simplesamlphp.org/res/downloads/simplesamlphp-$VERSION.tar.gz | tar xvzf - --strip-components 1 -C /var/www/html
+RUN curl https://github.com/simplesamlphp/simplesamlphp/releases/download/v$VERSION/simplesamlphp-$VERSION.tar.gz | tar xvzf - --strip-components 1 -C /var/www/html
 
 WORKDIR /var/www/html
 
