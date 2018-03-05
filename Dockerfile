@@ -1,7 +1,7 @@
 FROM php:5.6-apache
 MAINTAINER Ian Blenke <ian@blenke.com>
 
-env VERSION 1.13.2
+env VERSION 1.15.4
 
 WORKDIR /var/www/html
 
